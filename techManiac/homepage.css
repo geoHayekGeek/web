@@ -1,0 +1,145 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('backgroundImg.webp') ;
+    background-repeat: no-repeat;
+    background-size: 5000px 5000px;
+}
+
+header{
+    display: inline-block;
+} 
+
+header nav{
+    float: right;
+    padding-left: 10em;
+}
+
+ul#topNav{
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+}
+
+li.topNavItem{
+    float: right;
+    padding: 1.2em 2em;
+}
+
+a.topNavLink{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li.topNavItem:hover a{
+    color: purple;
+}
+
+h1#title{
+    color: rgb(9, 219, 9);
+    font-weight: bolder;
+    font-size: 40px;
+    float: left;
+}
+
+div#products{
+    padding: 0em 1em 0em 5em;
+    display: inline-block;
+}
+
+.whiteText{
+    color: white;
+    font-weight: bolder;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+h1#productsTitle{
+    font-size: 52px;
+    padding-left: 1em;
+}
+
+img.productImg{
+    border-radius: 20px;
+    margin-right: 1.9em;
+}
+
+div.allProducts{
+    padding-left: 1.3em;
+    width: 25%;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    float: left;
+    margin-right: 4.2em;
+}
+
+div.allProducts h2{
+    text-align: center;
+}
+
+div.allProducts:hover{
+    border-right: 2px purple solid;
+    border-left: 2px purple solid;
+    float: left;
+    margin-right: 4.5em;
+    padding-left: 1.2em;
+    width: 25%;
+}
+
+img.productImg{
+    width: 280px;
+    height: 250px;
+}
+
+div.menu{
+    background-color: rgb(63, 4, 63);
+    margin-top: 1em;
+    border-radius: 20px;
+    display: none;
+    position: relative;
+    left: 38.4%;
+    width: 22%;
+}
+
+.listLink{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a.listLink:hover{
+    color: purple;
+}
+
+div.show{
+    display: block;
+}
+
+div.menu ul{
+    list-style-type: none;
+}
+
+h1#services{
+    font-size: 52px;
+    padding-left: 1em;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+p#services{
+    color: purple;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 2.6em;
+    margin-top: 0;
+}
+
+div#servicesList{
+    
+}
